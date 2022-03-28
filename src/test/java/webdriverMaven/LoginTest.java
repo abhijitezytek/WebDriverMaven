@@ -24,7 +24,8 @@ public void doLogin() {
 
 driver.get("https://gmail.com");
 driver.findElement(By.id("identifierId")).sendKeys("Asd789@gmail.com");
-// Click on Next button
+
+// Click on Next button on gmail
 driver.findElement(By.xpath("//*[@id='identifierNext']/div/button/span")).click();
 }
 
